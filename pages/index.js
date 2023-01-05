@@ -25,19 +25,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="md:px-20 bg-white lg:px-30 px-10  dark:bg-gradient-to-r dark:from-gray-900 dark:to-sky-900">
+      <main className="md:px-20 bg-white lg:px-30 px-3  dark:bg-gradient-to-r dark:from-gray-900 dark:to-sky-900">
         <section className="min-h-screen">
           <nav className="py-5 mb-12 flex justify-between">
             <h1 className="text-2xl text-teal-900 font-burtons dark:text-white">F.R.</h1>
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="dark:text-white cursor-pointer text-3xl"/></li>
               <li>
-                <a href="https://www.google.com/" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 transition ease-in-out delay-100 bg-blue-500 hover:scale-125">
+                <a href="https://www.google.com/" target="_blank" className="text-xs bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 transition ease-in-out delay-100 bg-blue-500 hover:scale-125">
                   Resume
                 </a>
               </li>
               <li>
-                <a href="mailto:siamrahman711@gmail.com" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 transition ease-in-out delay-100 bg-blue-500 hover:scale-125">
+                <a href="mailto:siamrahman711@gmail.com" className="text-xs bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 transition ease-in-out delay-100 bg-blue-500 hover:scale-125">
                   Contact Me!
                 </a>
               </li>
