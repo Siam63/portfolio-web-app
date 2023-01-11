@@ -7,11 +7,11 @@ import spaceInvaders from "../public/space-invaders.png";
 import isell from "../public/isell-web-app-pic.jpeg";
 import freelancing from "../public/freelancing_pic.jpeg";
 import coretech from "../public/coretech_pic.png";
-import techVerse from "../public/tech_verse_img.gif";
 import weatherPic from "../public/weather-app.png";
 import dfsTree from "../public/dfs.jpeg";
 import rpgPic from "../public/rpg_game.jpeg";
 import todoPic from "../public/todo-list.jpeg";
+import iquotePic from '../public/iquote_img.png';
 
 function HonourableMentions() {
     return (
@@ -98,17 +98,17 @@ function HonourableMentions() {
               <div className="flex flex-col justify-center transform transition-all hover:scale-125 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 
                 <div className="flex justify-center">
-                  <Image class="shadow-lg" src={techVerse} height={200} width={200}></Image>
+                  <Image class="object-fit h-36 w-36 shadow-lg" src={iquotePic} height={200} width={200}></Image>
                 </div>
                 
                 <h1 className="text-xl pt-2">
-                  Techverse Web Application
+                  iQuote
                 </h1>
                 <p className="py-5">
-                  Technologies: Angular, HTML and CSS, JavaScript, PHP, MySQL DB
+                  Technologies: Swift, XCode
                 </p>
                 <div className="flex justify-center">
-                  <a href="https://github.com/Anthony-BouKhalil/Techverse" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
+                  <a href="https://github.com/Siam63/iQuote" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
                     View Project
                   </a>
                 </div>
@@ -189,6 +189,7 @@ function HonourableMentions() {
                   </a>
                 </div>
               </div>
+
           </div>
         </div>
     )

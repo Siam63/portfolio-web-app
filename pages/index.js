@@ -37,7 +37,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="mailto:siamrahman711@gmail.com" className="text-xs bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 transition ease-in-out delay-100 bg-blue-500 hover:scale-125">
+                <a href="/Contact" className="text-xs bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 transition ease-in-out delay-100 bg-blue-500 hover:scale-125">
                   Contact Me!
                 </a>
               </li>
@@ -47,24 +47,23 @@ export default function Home() {
           <div className="text-center p-10">
             <About />
           </div>
-        </section>
 
-        <div>
-          <PreviousProjects />
-        </div>
+          <div>
+            <PreviousProjects />
+          </div>
 
-        <div>
-          <HonourableMentions />
-        </div>
+          <div>
+            <HonourableMentions />
+          </div>
           
-        <div className="mt-36">
-          <Experience />
-        </div>
+          <div className="mt-36">
+            <Experience />
+          </div>
+        </section>
       </main>
           
       <div className="dark:bg-gradient-to-r dark:from-gray-900 dark:to-sky-900 flex justify-end pr-5 pb-5" />
-
-      <Contact />
+      
 
       <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-300 dark:bg-gradient-to-r dark:from-gray-900 dark:to-sky-900">
           <a className="hover:cursor-pointer hover:scale-125 transition-all" href="https://www.gmail.com/" target="_blank">
