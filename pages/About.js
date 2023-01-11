@@ -5,8 +5,8 @@ import Image from 'next/image';
 function About() {
     return (
         <div>
-            <div className="text-center p-10">
-            <h2 className="text-5xl text-teal-600 font-medium pb-5 dark:text-gray-300">Hey, I'm Faiazur Rahman, a Full Stack Software Engineer</h2>
+            <div className="text-center md:p-10">
+            <h2 className="text-3xl md:text-5xl text-teal-600 font-medium pb-5 dark:text-gray-300">Hey, I'm Faiazur Rahman, a Full Stack Software Engineer</h2>
             <h3 className="text-2xl py-2 text-slate-500 dark:text-gray-400">Leveraging my technical expertise to build world-class software for businesses</h3>
             <p className="text-md leading-8 text-gray-800 dark:text-gray-300">Welcome to my personal portfolio website! This wesbite was created completely using Tailwind, React, NextJS, CSS and HTML.
             </p>
@@ -17,7 +17,7 @@ function About() {
           </div>
 
           <div className="relative mx-auto w-80 h-80">
-            <Image className="rounded-full w-80 h-70" src={selfie}/>
+            <Image className="rounded-full w-80 h-70 pt-5" src={selfie}/>
           </div>
 
           <div className="dark:text-gray-300 mx-auto text-center mt-[-30px]">
