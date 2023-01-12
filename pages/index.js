@@ -10,7 +10,6 @@ import SocialLinks from './SocialLinks';
 import About from './About';
 import PreviousProjects from './PreviousProjects';
 import HonourableMentions from './HonourableMentions';
-import Contact from './Contact';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);

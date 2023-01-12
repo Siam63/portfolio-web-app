@@ -23,7 +23,7 @@ function PreviousProjects() {
               <h3 className="dark:text-gray-700 text-3xl font-medium pt-8 pb-2">Techverse - Online E-Commerce Website</h3>
 
               <div className="flex justify-center p-10 border-solid border-b-2 border-gray-300">
-                <Image src={techverse} class="transform transition-all hover:scale-110 delay-100" width={800}></Image>
+                <Image src={techverse} class="object-fit h-60 w-96 transform transition-all hover:scale-110 delay-100" width={800}></Image>
               </div>
 
               <h4 className="text-teal-600 font-medium py-5 text-xl">Tools Used</h4>
@@ -47,7 +47,7 @@ function PreviousProjects() {
               <h3 className="text-3xl font-medium pt-16 pb-2">Movie Recommender</h3>
               
               <div className="flex justify-center p-10 border-solid border-b-2 border-gray-300">
-                <Image src={movierecommender} class="object-cover transform transition-all hover:scale-110 delay-100" width={800}></Image>
+                <Image src={movierecommender} class="object-fit h-60 w-96 transform transition-all hover:scale-110 delay-100" width={800}></Image>
               </div>
 
               <h4 className="py-4 text-teal-600 text-xl">Tools Used</h4>
@@ -72,7 +72,7 @@ function PreviousProjects() {
               <h3 className="dark:text-gray-600 text-3xl font-medium pt-8 pb-2">Ryerson University GPA Calculator</h3>
               
               <div className="flex justify-center p-10 border-b-2 border-gray-300">
-                <Image className="object-cover transform transition-all hover:scale-125 delay-100" src={gpaCalc}></Image>
+                <Image className="object-fit h-60 w-96 transform transition-all hover:scale-125 delay-100" src={gpaCalc}></Image>
               </div>
 
               <h4 className="py-4 text-teal-600 text-xl">Tools Used</h4>
@@ -93,7 +93,7 @@ function PreviousProjects() {
               <h3 className="text-3xl font-medium pt-8 pb-2 dark:text-gray-600">Qix Arcade Game</h3>
               
               <div className="flex justify-center p-10 border-solid border-b-2 border-gray-300 pb-20">
-                <Image src={qixGame} class="object-cover transform transition-all hover:scale-110 delay-100"></Image>
+                <Image src={qixGame} class="object-fit h-60 w-96 transform transition-all hover:scale-110 delay-100"></Image>
               </div>
 
               <h4 className="py-4 text-teal-600 text-xl">Tools Used</h4>
@@ -114,10 +114,10 @@ function PreviousProjects() {
             <div className="dark:bg-white text-center shadow-lg p-10 rounded-xl my-10">
               <h3 className="dark:text-gray-700 text-3xl font-medium pt-8 pb-2">iOS Financial Management App</h3>
               
-              <div className="md:flex-row flex justify-center p-10 flex-col border-solid border-b-2 border-gray-300">
-                <Image src={iosPic1} class="p-2 object-cover md:h-60 md:w-48 h-96 w-48 mr-10 transform transition-all hover:scale-125 delay-100"></Image>
-                <Image src={iosPic2} class="p-2 object-cover md:h-60 md:w-48 h-96 w-48 mr-10 transform transition-all hover:scale-125 delay-100"></Image>
-                <Image src={iosPic3} class="p-2 object-cover md:h-60 md:w-48 h-96 w-48 transform transition-all hover:scale-125 delay-100"></Image>
+              <div className="md:flex-row flex justify-center sm:p-10 flex-col border-solid border-b-2 border-gray-300 pl-[105px]">
+                  <Image src={iosPic1} class="p-2 object-fit md:h-52 md:w-36 h-96 w-48 mr-10 transform transition-all hover:scale-125 delay-100"></Image>
+                  <Image src={iosPic2} class="p-2 object-fit md:h-52 md:w-36 h-96 w-48 mr-10 transform transition-all hover:scale-125 delay-100"></Image>
+                  <Image src={iosPic3} class="p-2 object-fit md:h-52 md:w-36 h-96 w-48 transform transition-all hover:scale-125 delay-100"></Image>
               </div>
 
               <h4 className="py-4 text-teal-600 text-xl">Tools Used</h4>
@@ -139,7 +139,7 @@ function PreviousProjects() {
               <h3 className="text-3xl font-medium pt-8 pb-2 dark:text-gray-600">Quote Generator</h3>
               
               <div className="flex justify-center p-10 border-solid border-b-2 border-gray-300 pb-20">
-                <Image src={quote_pic} class="object-cover transform transition-all hover:scale-110 delay-100"></Image>
+                <Image src={quote_pic} class="oobject-fit h-60 w-96 transform transition-all hover:scale-110 delay-100"></Image>
               </div>
 
               <h4 className="py-4 text-teal-600 text-xl">Tools Used</h4>

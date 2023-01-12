@@ -15,9 +15,10 @@ import iquotePic from '../public/iquote_img.png';
 
 function HonourableMentions() {
     return (
-        <div>
+        <div className="grid grid-cols-1">
             <h1 className="text-center text-3xl dark:text-white">Honourable Mentions</h1>
-          <div className="md:flex justify-evenly">
+            
+            <div className="2xl:px-60 md:flex justify-evenly">
               <div className="flex flex-col justify-center transform transition-all hover:scale-125 delay-50 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 
                 <div className="flex justify-center">
@@ -38,7 +39,6 @@ function HonourableMentions() {
               </div>
 
               <div className="flex flex-col justify-center transform transition-all hover:scale-125 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
-                
                 <div className="flex justify-center">
                   <Image class="shadow-lg" src={isell} height={150} width={200}></Image>
                 </div>
@@ -75,7 +75,7 @@ function HonourableMentions() {
               </div>
           </div>
 
-          <div className="md:flex justify-evenly">
+          <div className="2xl:px-60 md:flex justify-evenly">
               <div className="flex flex-col justify-center transform transition-all hover:scale-125 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 
                 <div className="flex justify-center">
@@ -133,7 +133,7 @@ function HonourableMentions() {
               </div>
           </div>
 
-          <div className="md:flex justify-evenly">
+          <div className="2xl:px-60 md:flex justify-evenly">
               <div className="flex flex-col justify-center transform transition-all hover:scale-125 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 
                 <div className="flex justify-center">
