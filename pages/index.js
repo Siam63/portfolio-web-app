@@ -37,7 +37,12 @@ export default function Home() {
               </li>
               <li>
                 <a href="/Contact" className="md:text-2xl text-xs bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 transition ease-in-out delay-100 bg-blue-500 hover:scale-125">
-                  Contact Me!
+                  Get in Touch!
+                </a>
+              </li>
+              <li>
+                <a href="/AboutMePage" className="md:text-2xl text-xs bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 transition ease-in-out delay-100 bg-blue-500 hover:scale-125">
+                  About Me
                 </a>
               </li>
             </ul>
