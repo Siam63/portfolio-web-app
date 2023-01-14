@@ -31,16 +31,8 @@ function AboutMePage() {
                             <a href="/" className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">Back</a>
                         </div>
                     </div>
-                    
                 </div>
-                
-                <div className="md:mt-28 lg:mt-[210px] flex justify-center mt-5">
-                    <Image className="object-fill w-96 h-80 rounded-3xl" src={selfie}/>
-                </div>
-                
             </div>
-
-            
         </div>
     )
 }
