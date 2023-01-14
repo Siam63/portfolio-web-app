@@ -16,7 +16,7 @@ import iosPic3 from "../public/ios_app_pic_3.png";
 function PreviousProjects() {
     return (
         <div>
-            <h1 className="text-center text-2xl mt-2 dark:text-gray-200">Portfolio - Previous Projects</h1>
+          <h1 className="text-center text-2xl mt-2 dark:text-gray-200">Portfolio - Previous Projects</h1>
           
           <div className="lg:flex gap-5 justify-center">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">

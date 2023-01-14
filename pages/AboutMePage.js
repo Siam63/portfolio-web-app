@@ -1,13 +1,11 @@
 import React from 'react'
-import selfie from '../public/cartoon-img.jpeg';
-import Image from 'next/image';
 
 function AboutMePage() {
     return (
-        <div className="w-full h-screen bg-gradient-to-r from-gray-900 to-sky-900 p-4 text-white bg-white">
+        <div className="w-full h-full bg-gradient-to-r from-gray-900 to-sky-900 p-4 text-white bg-white">
             <div className="md:flex-row md:text-left text-center flex flex-col md:justify-evenly justify-center">
                 <div className="px-5 lg:max-w-3xl md:max-w-xl md:mt-28 flex flex-col">
-                    <h1 className="text-4xl bg-gradient-to-r from-slate-700 to-gray-200 bg-clip-text text-transparent">More About Me</h1>
+                    <h1 className="text-4xl bg-gradient-to-r from-slate-600 to-gray-200 bg-clip-text text-transparent">More About Me</h1>
                     <p className="mt-2 text-2xl text-gray-300">Software Engineer</p>
 
                     <p className="mt-5 text-lg text-gray-300"> 
@@ -29,6 +27,24 @@ function AboutMePage() {
                     <div className="md:justify-start flex justify-center">
                         <div className="flex max-w-[80px]">
                             <a href="/" className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">Back</a>
+                        </div>
+                    </div>
+
+                    <div className="flex md:justify-left justify-center">
+                        <h1 className="text-white text-3xl bg-gradient-to-b from-cyan-800 to-blue-300 bg-clip-text text-transparent font-medium">Education</h1>
+                    </div>
+                    
+                    <div className="flex md:flex-row flex-col justify-between pb-36">
+                        <div className="flex flex-col justify-center transform transition-all hover:scale-110 relative mx-auto w-80 h-96 bg-sky-800 text-center shadow-xl p-5 rounded-xl my-10">
+                            <h1 className="text-2xl pt-2 text-gray-300">High School</h1>
+                            <p className="py-5">SATEC @ W.A. Porter C.I</p>
+                            <p className="py-5">Awards and Teams: Honours, Robotics Club, Chess Team Captain, Math Club Leader</p>
+                        </div>
+
+                        <div className="flex flex-col justify-center transform transition-all hover:scale-110 relative mx-auto w-80 h-96 bg-sky-800 text-center shadow-xl p-5 rounded-xl my-10">
+                            <h1 className="text-2xl pt-2 text-gray-300">Ryerson University</h1>
+                            <p className="py-5">BSc. Applied Mathematics and Computer Science</p>
+                            <p className="py-5">Awards and Teams: Dean's List, R3 Club, Chess Team</p>
                         </div>
                     </div>
                 </div>
