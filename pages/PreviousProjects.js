@@ -8,6 +8,7 @@ import movierecommender from "../public/movie_recommender.png";
 import gpaCalc from "../public/gpa_calc.png";
 import qixGame from "../public/qix_game.png";
 import quote_pic from '../public/quote_pic.png';
+import calculator_pic from '../public/calc_app_pic.png';
 
 import iosPic1 from "../public/ios_app_pic_1.png";
 import iosPic2 from "../public/ios_app_pic_2.png";
@@ -85,7 +86,16 @@ function PreviousProjects() {
                 <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-teal-500 rounded-full blur-md"></span>
                 <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-blue-400 rounded-full blur-md"></span>
                 </span>
-                <span class="relative text-white">View Project</span>
+                <span class="relative text-white">View Code</span>
+              </a>
+
+              <a href="https://sage-figolla-4bad33.netlify.app" target="_blank" className="ml-5 hover:scale-110 transition-all delay-75 relative items-center justify-center inline-block mt-5 p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
+                <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-green-500 rounded-full blur-md ease"></span>
+                <span class="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
+                <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-teal-500 rounded-full blur-md"></span>
+                <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-blue-400 rounded-full blur-md"></span>
+                </span>
+                <span class="relative text-white">Demo</span>
               </a>
             </div>
 
@@ -158,6 +168,37 @@ function PreviousProjects() {
               </a>
             </div>
           </div>
+
+          <div className="dark:bg-white text-center shadow-lg p-10 rounded-xl my-10">
+              <h3 className="text-3xl font-medium pt-8 pb-2 dark:text-gray-600">Simple Calculator</h3>
+              
+              <div className="flex justify-center p-10 border-solid border-b-2 border-gray-300 pb-20">
+                <Image src={calculator_pic} class="oobject-fit h-60 w-96 transform transition-all hover:scale-110 delay-100"></Image>
+              </div>
+
+              <h4 className="py-4 text-teal-600 text-xl">Tools Used</h4>
+              <p>CSS</p>
+              <p>HTML</p>
+              <p>Vanilla JavaScript</p>
+
+              <a href="https://extraordinary-pithivier-d8fe55.netlify.app/" target="_blank" className="hover:scale-110 transition-all delay-75 relative items-center justify-center inline-block mt-5 p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
+                <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-green-500 rounded-full blur-md ease"></span>
+                <span class="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
+                <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-teal-500 rounded-full blur-md"></span>
+                <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-blue-400 rounded-full blur-md"></span>
+                </span>
+                <span class="relative text-white">View Demo</span>
+              </a>
+
+              <a href="https://github.com/Siam63/js_calculator" target="_blank" className="ml-5 hover:scale-110 transition-all delay-75 relative items-center justify-center inline-block mt-5 p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
+                <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-green-500 rounded-full blur-md ease"></span>
+                <span class="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
+                <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-teal-500 rounded-full blur-md"></span>
+                <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-blue-400 rounded-full blur-md"></span>
+                </span>
+                <span class="relative text-white">View Code</span>
+              </a>
+            </div>
         </div>
     )
 }
