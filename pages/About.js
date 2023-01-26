@@ -1,6 +1,7 @@
 import React from 'react'
 import selfie from "../public/cartoon-img.jpeg";
 import Image from 'next/image';
+import Typed from 'react-typed';
 
 function About() {
     return (
@@ -10,10 +11,12 @@ function About() {
             <h3 className="text-2xl py-2 text-slate-500 dark:text-gray-400">Leveraging my technical expertise to build world-class software for businesses</h3>
             <p className="text-md leading-8 text-gray-800 dark:text-gray-300">Welcome to my personal portfolio website! This wesbite was created completely using Tailwind, React, NextJS, CSS and HTML.
             </p>
-            <p className="dark:text-gray-300">
-            I create scalable, modern websites with seamless cross-browser compatibility, ensuring that all content is displayed perfectly on all devices.
+            <div>
+              <p className="dark:text-gray-300">
+              I create scalable, modern websites with seamless cross-browser compatibility, ensuring that all content is displayed perfectly on all devices, utilizing tools like,
             </p>
-
+            <Typed className="font-semibold text-lg text-teal-700 dark:text-gray-300" strings={['ReactJS', 'HTML', 'CSS', 'NextJS', 'Tailwind', 'And More!']} typeSpeed={60} backSpeed={40} loop/>
+            </div>
           </div>
 
           <div className="relative mx-auto w-80 h-80">
