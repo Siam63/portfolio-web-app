@@ -7,15 +7,15 @@ function About() {
     return (
         <div>
             <div className="text-center md:p-10">
-            <h2 className="text-3xl md:text-5xl text-teal-600 font-medium pb-5 dark:text-gray-300">Hey, I'm Faiazur Rahman, a Full Stack Software Engineer</h2>
-            <h3 className="text-2xl py-2 text-slate-500 dark:text-gray-400">Leveraging my technical expertise to build world-class software for businesses</h3>
-            <p className="text-md leading-8 text-gray-800 dark:text-gray-300">Welcome to my personal portfolio website! This wesbite was created completely using Tailwind, React, NextJS, CSS and HTML.
-            </p>
+              <h2 className="text-3xl md:text-5xl text-teal-600 font-medium pb-5 dark:text-gray-300">Hey, I'm Faiazur Rahman, a Full Stack Software Engineer</h2>
+              <h3 className="text-2xl py-2 text-slate-500 dark:text-gray-400">Leveraging my technical expertise to build world-class software for businesses</h3>
+              <p className="text-md leading-8 text-gray-800 dark:text-gray-300">Welcome to my personal portfolio website! This wesbite was created completely using Tailwind, React, NextJS, CSS and HTML.
+              </p>
             <div>
               <p className="dark:text-gray-300">
               I create scalable, modern websites with seamless cross-browser compatibility, ensuring that all content is displayed perfectly on all devices, utilizing tools like,
             </p>
-            <Typed className="font-semibold text-lg text-teal-700 dark:text-gray-300" strings={['ReactJS', 'HTML', 'CSS', 'NextJS', 'Tailwind', 'And More!']} typeSpeed={60} backSpeed={40} loop/>
+            <Typed className="font-semibold text-xl text-teal-700 dark:text-gray-300" strings={['ReactJS', 'HTML', 'CSS', 'NextJS', 'TailwindCSS', 'JavaScript']} typeSpeed={60} backSpeed={40} loop/>
             </div>
           </div>
 
