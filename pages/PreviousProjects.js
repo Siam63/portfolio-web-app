@@ -21,10 +21,10 @@ function PreviousProjects() {
           
           <div className="lg:flex gap-5 justify-center">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <h3 className="dark:text-gray-700 text-3xl font-medium pt-8 pb-2">Techverse - Online E-Commerce Website</h3>
+              <h3 className="dark:text-gray-700 text-3xl font-medium pt-8 pb-2">Techverse - E-Commerce Website</h3>
 
-              <div className="flex justify-center p-10 border-solid border-b-2 border-gray-300">
-                <Image src={techverse} class="object-fit h-60 w-96 transform transition-all hover:scale-110 delay-100" width={800}></Image>
+              <div className="flex justify-center py-10 border-solid border-b-2 border-gray-300">
+                <Image src={techverse} class="object-fit h-60 w-96 transform transition-all hover:scale-105" width={800}></Image>
               </div>
 
               <h4 className="text-teal-600 font-medium py-5 text-xl">Tools Used</h4>

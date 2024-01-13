@@ -10,6 +10,7 @@ import SocialLinks from './SocialLinks';
 import About from './About';
 import PreviousProjects from './PreviousProjects';
 import HonourableMentions from './HonourableMentions';
+import Projects from './Projects';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -24,7 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="md:px-20 bg-white lg:px-30 px-3 dark:bg-gradient-to-r dark:from-gray-900 dark:to-sky-900">
+      <main className="md:px-20 bg-white lg:px-30 px-3 dark:bg-gradient-to-r dark:from-gray-900 dark:to-blue-900">
         <section className="min-h-screen">
           <nav className="py-5 mb-12 flex md:justify-between justify-center">
             <h1 className="md:text-3xl md:visible invisible sm:text-xl text-teal-900 font-burtons dark:text-white">F.R.</h1>
@@ -54,11 +55,14 @@ export default function Home() {
           </div>
 
           <div>
-            <PreviousProjects />
+            <Projects />
           </div>
+          {/* <div>
+            <PreviousProjects />
+          </div> */}
 
           <div>
-            <HonourableMentions />
+            <HonourableMentions darkMode = {darkMode}/>
           </div>
           
           <div className="mt-36">
@@ -70,7 +74,7 @@ export default function Home() {
       <div className="dark:bg-gradient-to-r dark:from-gray-900 dark:to-sky-900 flex justify-end pr-5 pb-5" />
       
 
-      <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-300 dark:bg-gradient-to-r dark:from-gray-900 dark:to-sky-900">
+      <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-300 dark:bg-gradient-to-r dark:from-gray-900 dark:to-blue-900">
           <a className="hover:cursor-pointer hover:scale-125 transition-all" href="https://www.gmail.com/" target="_blank">
             <AiFillMail />
           </a>
