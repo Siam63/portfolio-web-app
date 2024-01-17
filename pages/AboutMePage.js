@@ -2,10 +2,10 @@ import React from 'react'
 
 function AboutMePage() {
     return (
-        <div className="w-full h-full bg-gradient-to-r from-gray-900 to-sky-900 p-4 text-white bg-white">
+        <div className="w-full h-full bg-gradient-to-r from-gray-900 to-blue-900 p-4 text-white bg-white">
             <div className="md:flex-row md:text-left text-center flex flex-col md:justify-evenly justify-center">
                 <div className="px-5 lg:max-w-3xl md:max-w-xl md:mt-28 flex flex-col">
-                    <h1 className="text-4xl bg-gradient-to-r from-slate-600 to-gray-200 bg-clip-text text-transparent">More About Me</h1>
+                    <h1 className="text-4xl bg-gradient-to-r from-slate-600 to-gray-200 bg-clip-text text-gray-400">More About Me</h1>
                     <p className="mt-2 text-2xl text-gray-300">Software Engineer</p>
 
                     <p className="mt-5 text-lg text-gray-300"> 
