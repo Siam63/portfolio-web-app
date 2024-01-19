@@ -7,7 +7,7 @@ import spaceInvaders from "../public/space-invaders.png";
 import isell from "../public/isell-web-app-pic.jpeg";
 import freelancing from "../public/freelancing_pic.jpeg";
 import coretech from "../public/coretech_pic.png";
-import weatherPic from "../public/weather-app.png";
+import weatherPic from "../public/weather_app_new.png";
 import dfsTree from "../public/dfs.jpeg";
 import rpgPic from "../public/rpg_game.jpeg";
 import todoPic from "../public/todo-list.jpeg";
@@ -19,21 +19,23 @@ function HonourableMentions({ darkMode }) {
             <h1 className="text-center text-3xl dark:text-white">Honourable Mentions</h1>
             
             <div className="2xl:px-60 md:flex justify-evenly">
-              <div className="flex flex-col justify-center transform transition-all hover:scale-105 delay-50 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
-                
+              <div className="flex flex-col justify-center transform transition-all hover:scale-105 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 <div className="flex justify-center">
-                  <Image class="shadow-lg" src={spaceInvaders} height={150} width={150}></Image>
+                  <Image class="shadow-lg" src={weatherPic} height={150} width={150}></Image>
                 </div>
                 
                 <h1 className="text-xl pt-2">
-                  Space Invaders
+                  Weather Application
                 </h1>
                 <p className="py-5">
-                  Technologies: Python, PyGame
+                  Technologies: ReactJS, Weather API, HTML and CSS
                 </p>
-                <div className="flex justify-center">
-                  <a href="https://github.com/Siam63/space_invaders" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
-                    View Project
+                <div className="flex justify-evenly">
+                  <a href="https://github.com/Siam63/new-weather-app/tree/clean-up-push" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
+                    View Demo
+                  </a>
+                  <a href="https://github.com/Siam63/new-weather-app/tree/clean-up-push" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
+                    View Code
                   </a>
                 </div>
               </div>
@@ -51,7 +53,7 @@ function HonourableMentions({ darkMode }) {
                 </p>
                 <div className="flex justify-center">
                   <a href="https://github.com/Siam63/new-isell-app" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
-                    View Project
+                    View Code
                   </a>
                 </div>
               </div>
@@ -69,7 +71,7 @@ function HonourableMentions({ darkMode }) {
                 </p>
                 <div className="flex justify-center">
                   <a href="https://github.com/Siam63/freelancing-website/tree/master" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
-                    View Project
+                    View Code
                   </a>
                 </div>
               </div>
@@ -90,7 +92,7 @@ function HonourableMentions({ darkMode }) {
                 </p>
                 <div className="flex justify-center">
                   <a href="https://www.youtube.com/@coretechlearning3706" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
-                    View Channel
+                    View Code
                   </a>
                 </div>
               </div>
@@ -109,28 +111,31 @@ function HonourableMentions({ darkMode }) {
                 </p>
                 <div className="flex justify-center">
                   <a href="https://github.com/Siam63/iQuote" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
-                    View Project
+                    View Code
                   </a>
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center transform transition-all hover:scale-105 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
+              <div className="flex flex-col justify-center transform transition-all hover:scale-105 delay-50 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
+                
                 <div className="flex justify-center">
-                  <Image class="shadow-lg" src={weatherPic} height={150} width={150}></Image>
+                  <Image class="shadow-lg" src={spaceInvaders} height={150} width={150}></Image>
                 </div>
                 
                 <h1 className="text-xl pt-2">
-                  Weather Application
+                  Space Invaders
                 </h1>
                 <p className="py-5">
-                  Technologies: ReactJS, Weather API, HTML and CSS
+                  Technologies: Python, PyGame
                 </p>
                 <div className="flex justify-center">
-                  <a href="https://github.com/Siam63/new-weather-app/tree/clean-up-push" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
-                    View Project
+                  <a href="https://github.com/Siam63/space_invaders" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
+                    View Code
                   </a>
                 </div>
               </div>
+
+              
           </div>
 
           <div className="2xl:px-60 md:flex justify-evenly">
@@ -148,7 +153,7 @@ function HonourableMentions({ darkMode }) {
                 </p>
                 <div className="flex justify-center">
                   <a href="https://github.com/Siam63/DFS-implementation" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
-                    View Project
+                    View Code
                   </a>
                 </div>
               </div>
@@ -167,7 +172,7 @@ function HonourableMentions({ darkMode }) {
                 </p>
                 <div className="flex justify-center">
                   <a href="https://github.com/Siam63/react-todo-app" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
-                    View Project
+                    View Code
                   </a>
                 </div>
               </div>
@@ -185,7 +190,7 @@ function HonourableMentions({ darkMode }) {
                 </p>
                 <div className="flex justify-center">
                   <a href="https://github.com/Siam63/java-rpg" target="_blank" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transition ease-in-out delay-100 bg-blue-500">
-                    View Project
+                    View Code
                   </a>
                 </div>
               </div>
