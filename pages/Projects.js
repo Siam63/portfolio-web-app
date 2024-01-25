@@ -22,7 +22,7 @@ function Projects() {
             <h1 className="text-center text-3xl mt-2 dark:text-gray-200 pb-10">Projects</h1>
 
             <div className="flex justify-center">
-                <div className="pb-10 justify-center grid sm:grid-cols-1 grid-cols-2 md:grid-cols-2 gap-8 sm:px-0">
+                <div className="pb-10 justify-center grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-8 sm:px-0">
                     <div>
                         <Card className="hover:scale-105 transition-all mt-6 w-96">
                             <CardHeader color="blue-gray" className="relative h-56">

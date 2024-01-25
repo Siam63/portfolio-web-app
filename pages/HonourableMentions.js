@@ -19,7 +19,7 @@ function HonourableMentions({ darkMode }) {
             <h1 className="text-center text-3xl dark:text-white">Honourable Mentions</h1>
             
             <div className="2xl:px-60 md:flex justify-evenly">
-              <div className="flex flex-col justify-center transform transition-all hover:scale-105 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
+              <div className="sm:mx-auto mx-5 flex flex-col justify-center transform transition-all hover:scale-105 relative w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 <div className="flex justify-center">
                   <Image class="shadow-lg" src={weatherPic} height={150} width={150}></Image>
                 </div>
@@ -40,7 +40,7 @@ function HonourableMentions({ darkMode }) {
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center transform transition-all hover:scale-105 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
+              <div className="flex flex-col sm:mx-auto justify-center transform transition-all hover:scale-105 relative mx-5 w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 <div className="flex justify-center">
                   <Image class="shadow-lg" src={isell} height={150} width={200}></Image>
                 </div>
@@ -58,7 +58,7 @@ function HonourableMentions({ darkMode }) {
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center transform transition-all hover:scale-105 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
+              <div className="flex flex-col sm:mx-auto justify-center transform transition-all hover:scale-105 relative mx-5 w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 <div className="flex justify-center">
                   <Image class="shadow-lg" src={freelancing} height={150} width={225}></Image>
                 </div>
@@ -78,7 +78,7 @@ function HonourableMentions({ darkMode }) {
           </div>
 
           <div className="2xl:px-60 md:flex justify-evenly">
-              <div className="flex flex-col justify-center transform transition-all hover:scale-105 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
+              <div className="flex flex-col sm:mx-auto justify-center transform transition-all hover:scale-105 relative mx-5 w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 
                 <div className="flex justify-center">
                   <Image class="shadow-lg" src={coretech} height={150} width={150}></Image>
@@ -97,7 +97,7 @@ function HonourableMentions({ darkMode }) {
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center transform transition-all hover:scale-105 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
+              <div className="flex flex-col sm:mx-auto justify-center transform transition-all hover:scale-105 relative mx-5 w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 
                 <div className="flex justify-center">
                   <Image class="object-fit h-36 w-36 shadow-lg" src={iquotePic} height={200} width={200}></Image>
@@ -116,7 +116,7 @@ function HonourableMentions({ darkMode }) {
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center transform transition-all hover:scale-105 delay-50 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
+              <div className="flex flex-col sm:mx-auto justify-center transform transition-all hover:scale-105 delay-50 relative mx-5 w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 
                 <div className="flex justify-center">
                   <Image class="shadow-lg" src={spaceInvaders} height={150} width={150}></Image>
@@ -139,7 +139,7 @@ function HonourableMentions({ darkMode }) {
           </div>
 
           <div className="2xl:px-60 md:flex justify-evenly">
-              <div className="md:grid-cols-1 flex flex-col justify-center transform transition-all hover:scale-105 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
+              <div className="md:grid-cols-1 sm:mx-auto flex flex-col justify-center transform transition-all hover:scale-105 relative mx-5 w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 
                 <div className="flex justify-center">
                   <Image class="shadow-lg" src={dfsTree} height={150} width={150}></Image>
@@ -158,7 +158,7 @@ function HonourableMentions({ darkMode }) {
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center transform transition-all hover:scale-105 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
+              <div className="flex flex-col sm:mx-auto justify-center transform transition-all hover:scale-105 relative mx-5 w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 
                 <div className="flex justify-center">
                   <Image class="shadow-lg" src={todoPic} height={250} width={250}></Image>
@@ -177,7 +177,7 @@ function HonourableMentions({ darkMode }) {
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center transform transition-all hover:scale-105 relative mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
+              <div className="flex flex-col justify-center transform transition-all hover:scale-105 relative mx-5 sm:mx-auto w-80 h-96 bg-sky-200 text-center shadow-lg p-5 rounded-xl my-10">
                 <div className="flex justify-center">
                   <Image class="shadow-lg" src={rpgPic} height={150} width={225}></Image>
                 </div>
