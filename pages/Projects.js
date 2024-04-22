@@ -14,7 +14,7 @@ import socialApp from '../public/social-media-app.png';
 import drawingApp from '../public/drawing-app.png';
 import gpaV2 from '../public/gpa-pic.png';
 import gallery from '../public/photo-gallery.png';
-import techVerse from '../public/techverse_img.png';
+import cardsApp from '../public/cards4all.png';
 
 function Projects() {
     return (
@@ -36,7 +36,7 @@ function Projects() {
                                     Social Media Application
                                 </Typography>
                                 <Typography color="black">
-                                    An online web application enabling users to share photos and interact with a clean, aesthetically pleasing, responsive UI.
+                                    An online social media platform enabling users to share photos and interact with a clean, aesthetically pleasing, responsive UI.
                                     Features include photo sharing, likes and followers.
                                 </Typography>
                                 <Typography className="pt-8">
@@ -58,25 +58,28 @@ function Projects() {
                         <Card className="hover:scale-105 transition-all mt-6 w-96">
                             <CardHeader color="blue-gray" className="relative h-56">
                                 <Image className="object-fill h-56 w-96"
-                                    src={techVerse}
+                                    src={cardsApp}
                                     alt="card-image"
                                 />
                             </CardHeader>
                             <CardBody>
                                 <Typography variant="h5" color="blue-gray" className="mb-2">
-                                    Techverse - E-commerce Website
+                                    Trading Card Game Web Store
                                 </Typography>
                                 <Typography color="black">
-                                    A fully-functional mock e-commerce website, allowing users to browse various electronics, filter by type,
-                                    make purchases and view pickup location of their order. Features Google Maps API for geolocation.
+                                    A fully-functional online webstore, allowing users to browse various products, add items to their cart,
+                                    and checkout. Admin login allows addition of items, editing capabilities as well as removing items from database
                                 </Typography>
                                 <Typography className="pt-2">
-                                    Implmented using Angular, PHP, MySQL, Apache HTTP Server
+                                    Implmented using ReactJS, NodeJS, MongoDB, TailwindCSS
                                 </Typography>
                             </CardBody>
                             <div className="flex justify-center">
                                 <CardFooter className="pt-0">
-                                    <Button>View Code</Button>
+                                    <Button >Demo</Button>
+                                </CardFooter>
+                                <CardFooter className="pt-0">
+                                    <Button onClick={() => window.open('https://github.com/Siam63/tcg-store', '_blank')}>View Code</Button>
                                 </CardFooter>
                             </div>
                         </Card>
