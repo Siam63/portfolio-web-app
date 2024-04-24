@@ -14,7 +14,7 @@ import socialApp from '../public/social-media-app.png';
 import drawingApp from '../public/drawing-app.png';
 import gpaV2 from '../public/gpa-pic.png';
 import gallery from '../public/photo-gallery.png';
-import cardsApp from '../public/cards4all.png';
+import cardsApp from '../public/tcg-picture.png';
 
 function Projects() {
     return (
